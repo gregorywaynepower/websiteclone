@@ -6,31 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Solar Panel Cost 2019 | Current avg. solar system price by North Carolina</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="./reset.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
+    <style type="text/css">
+/*Button Styling and Gradient*/
+.button_example{
+border:1px solid #cb9b14; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:31px;font-family:arial, helvetica, sans-serif; padding: 10px 20px 10px 20px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #eab92d; background-image: -webkit-gradient(linear, left top, left bottom, from(#eab92d), to(#c79810));
+ background-image: -webkit-linear-gradient(top, #eab92d, #c79810);
+ background-image: -moz-linear-gradient(top, #eab92d, #c79810);
+ background-image: -ms-linear-gradient(top, #eab92d, #c79810);
+ background-image: -o-linear-gradient(top, #eab92d, #c79810);
+ background-image: linear-gradient(to bottom, #eab92d, #c79810);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#eab92d, endColorstr=#c79810);
+ margin-left: 5px;
+}
+.button_example:hover{
+ border:1px solid #a17b10;
+ background-color: #cf9f15; background-image: -webkit-gradient(linear, left top, left bottom, from(#cf9f15), to(#98740c));
+ background-image: -webkit-linear-gradient(top, #cf9f15, #98740c);
+ background-image: -moz-linear-gradient(top, #cf9f15, #98740c);
+ background-image: -ms-linear-gradient(top, #cf9f15, #98740c);
+ background-image: -o-linear-gradient(top, #cf9f15, #98740c);
+ background-image: linear-gradient(to bottom, #cf9f15, #98740c);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cf9f15, endColorstr=#98740c);
+}
+</style
   </head>
+/*Header begins here*/
   <body>
-
-    <img src="https://www.solarreviews.com/images/solarreviews.jpg" alt="Solar Reviews Image">
-    <!-- Menu-->
-    <div class="Menu">
-      <ul id="nav">
-        <li>Home</li>
-        <li>Solar Companies</li>
-        <li>Solar Panels</li>
-        <li>Solar Panel Cost</li>
-        <li>Blog</li>
-        <li>Solar Calculator</li>
-      </ul>
+    <div class = "header">
+      <div class="image_plus_login_box">
+        <div class="img_container">
+          <img src="https://www.solarreviews.com/images/solarreviews.jpg" alt="Solar Reviews Image">
+        </div>
+        <div class="login_box">
+          <ul>
+            <a href="review.html">Write Review</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+          </ul>
+        </div>
+      </div>
     </div>
-    <!--Carousel Text-->
-    <div class="carousel" style="background:blue;">
-      <h4 style="color: white;">
-        View the average solar panels installation cost for residential solar systems sized 5kw-10kw in your city below, or enter your zip code and power spend to compare solar cost for a specific size of system from local solar companies.
-      </h4>
+    /* <!-- Menu--> */
+    <div class="menu_box">
+      <div class="menu">
+        <ul id="nav-bar">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="solarcompanies.html">Solar Companies</a></li>
+          <li><a href="solarpanels.html">Solar Panels</a></li>
+          <li><a href="solarpanelcost.html">Solar Panel Cost</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="solarcalculator.html">Solar Calculator</a></li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <h1 style="color: gray; font-family: 'Montserrat', sans-serif;">
+    /* <!--Carousel Text--> */
+    <div class="carousel_box">
+      <div class=carousel_text_box>
+        <h4>
+          View the average solar panels installation cost for residential solar systems sized 5kw-10kw in your city below, or enter your zip code and power spend to compare solar cost for a specific size of system from local solar companies.
+        </h4>
+      </div>
+      <div class="button_box">
+        <input type="text" id="text-box" placeholder="Enter ZIP Code" style="height: 50px;"><a class="button_example" href="#">Get Started</a>
+      </div>
+      <div class="privacy_box">
+        <i class="fas fa-lock"> Privacy Secured - We will not sell, trade or rent your personal information to others without your permission.</i>
+      </div>
+    </div>
+  <div class="bottom_area">
+    <div class="secondary_menu">
+      <ol>
+        <li>Home               /</li>
+        <li>Solar Panels                 /</li>
+        <li>Solar Panel Cost                    /</li>
+        <li>North Carolina</li></ol>
+    </div>
+  </div>
+    <div class="content-area-bottom">
+      <h4 style="color: gray; font-family: 'Montserrat', sans-serif;">
         How much do solar panels cost for the average house in North Carolina in 2019?
-      </h1>
+      </h4>
     </div>
   </body>
 </html>
